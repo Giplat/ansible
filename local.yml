@@ -2,5 +2,4 @@
   become: true
   tasks:
   - name: Install packages
-    apt: name=[u'htop', u'mc', u'tmux']
-    
+    apt: name= [u'htop', u'mc', u'tmux']
